@@ -1,0 +1,130 @@
+.customeicons{
+    height: 12px;
+    width: 12px;
+}
+
+.topmail span,
+.topphonetext span{
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: 700;
+}
+  
+.topcontact{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 15px auto;
+}
+.topmail,
+.topphonetext{
+    display: flex;
+}
+.topphonetext{
+    margin-right: 20px;
+}
+.topmail{
+    margin-left: 10px;
+}
+
+.topicons-container{
+    display: inline-flex;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbutton button{
+    background-color: #C82424;
+    color: white;
+   height: 38px; ;
+   width: 126px;
+   border: none;
+   font-family: Merriweather;
+}
+.topsocials{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+   
+}
+.topbar{
+    border-bottom: 0.1px solid #000;
+}
+.topicons{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.navigationlist{
+    display: none;
+}
+
+.mainmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.moblie-menu{
+    color: #C82424;
+}
+
+
+.custome_icons{
+    width: 3opx;
+    height: 30px;
+    margin-left: 20px;;
+}
+.logo{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.navigationlist{
+    display: none;
+}
+
+.navigationlist ul{
+    display: flex;
+    gap:10px;
+}
+
+.navigationlist a{
+    font-size: 14px;
+    color: #000000;
+}
+.overlay-nav{
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    opacity: 92%;
+    padding: 0 20px;
+}
+.close-menu{
+    color: white;
+    height: 40px;
+    width: 40px;
+    margin-bottom: 20px;
+}
+.overlay-nav span{
+    justify-content: flex-end;
+    display: flex;
+    margin-top: 54px;
+}
+.overlay-nav ul{
+    background-color: white;
+}
+.overlay-nav a{
+    text-decoration: none;
+    color: #000;
+}
+.overlay-nav li{
+    padding: 10px 0px 10px 20px;
+    border-bottom: 0.5px solid #6C6C6C;
+    font-size: 28px;
+    
+}
