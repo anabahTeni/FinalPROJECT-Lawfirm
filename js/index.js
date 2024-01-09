@@ -1,12 +1,6 @@
-const menu =document.getElementsByClassName('moblie-menu')
-const closeMenu=()=>{
-    menu.classlist.remove('active')
+const closeMenu = () => {
+    document.querySelector(".overlay-nav").style.display = "none"
 }
-const openMenu=()=>{
-    menu.classlist.add('active')
-}
-
-function closeMenu(){}
-function openMenu(){
-    document.getElementsByClassName('moblie-menu').style.
+const openMenu = () => {
+    document.querySelector(".overlay-nav").style. Display = "block"
 }
