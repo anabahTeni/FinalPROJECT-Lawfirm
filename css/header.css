@@ -103,7 +103,10 @@
     top: 0px;
     opacity: 92%;
     padding: 0 20px;
+    z-index: 999;
 }
+
+
 .close-menu{
     color: white;
     height: 40px;
@@ -128,10 +131,74 @@
     font-size: 28px;
     
 }
+    
+.Hero{
+    background-image:url(../img/hero\ img.svg) ;
+    background-position: center;
+    background-size: cover;
+    height: 482px;
+    position: relative;
+}
+.herotext{
+    color: white;
+    justify-content: center;
+    padding: 20px 20px;
+       
+}
+.herotext p{
+    margin-bottom: 10px;
+}
 
-.heropic{
-   width: 100%;
-   right: 10px;
-  
+.herotext p:first-of-type{
+    margin-top: 70px;
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 12px;
+    border-bottom: 2.5px solid #C82424;
+    
+}
+.herobutton{
+    display: flex;
+}
+.fc button{
+    background-color: #C82424;
+    color: white;
+    height: 38px;
+    width: 124px;
+    border-radius: 5px;
+    border: 1px solid #C82424;
+}
+.lm {
+    color:white;
+    border-radius: 5px;
+    height: 38px;
+    width: 108px;
+    border: 1px white;
+   background: none;
+   
+}
 
+.about{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,254px) ;
+    padding: 20px;
+}
+.about div{
+    border-bottom: 0.5px solid  #CDC9C9;
+    background: #F9F9F9;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+.about p{
+    margin-left: 10px;
+}
+.caseicons{
+    height: 50px;
+    width: 50px;
+}
+.contain{
+    padding: 20px;
 }
